@@ -12,7 +12,7 @@ const Navbar = () => {
     ))}
   </div>
       <div className="container">
-        <a className="navbar-brand shine-text fw-bold text-primary" href="#home">MyPortfolio</a>
+        <a className="navbar-brand shine-text fw-bold text-primary" href="#home">FebyanDev</a>
         <button
           className="navbar-toggler"
           type="button"
