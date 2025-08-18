@@ -1,0 +1,38 @@
+.study-card {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  padding: 1rem;
+}
+
+/* Konten scrollable */
+.scroll-content {
+  max-height: 250px; /* biar bisa discroll */
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+/* Custom scrollbar bulat */
+.scroll-indicator {
+  position: relative;
+  width: 12px;
+  background: #e9ecef;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.scroll-bullet {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background: #3498db;
+  border-radius: 50%;
+  transition: top 0.2s ease;
+  box-shadow: 0 0 6px rgba(52, 152, 219, 0.6);
+}
+

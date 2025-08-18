@@ -1,0 +1,144 @@
+nav a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #f5f2f2;
+  padding: 10px 10px;
+  transition: color 0.5s;
+  overflow: hidden;
+   z-index: 2;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* shimmer effect saat hover */
+nav a:hover {
+  background: linear-gradient(
+    90deg,
+    #3498db,
+    #8e44ad,
+    #f39c12,
+    #3498db
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 0.8s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* underline animasi tetap */
+/* .menu a::before, */
+.menu a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: #02cbee;
+  transition: .4s;
+  opacity: 35%;
+}
+
+.menu a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu a:hover::before,
+.menu a:hover::after {
+  width: 100%;
+}
+
+/* nav a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 10px;
+  transition: color 0.5s;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+.menu a::before,
+.menu a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: #101705;
+  transition: .4s;
+}
+
+.menu a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu a:hover::before,
+.menu a:hover::after {
+  width: 100%;
+} */
+
+/* Efek shimmer (berkilau berjalan) */
+.shine-text {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: linear-gradient(
+    90deg,
+    #ee0505,
+    #dc1881,
+    #5b5f5e,
+    #483bd5
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite;
+}
+
+/* Animasi berjalan */
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+/* Tambahan efek glow */
+.shine-text:hover {
+  text-shadow: 0 0 10px rgba(255, 0, 128, 0.7),
+               0 0 20px rgba(255, 140, 0, 0.7),
+               0 0 30px rgba(64, 224, 208, 0.7);
+}
+
+
+
+
+
