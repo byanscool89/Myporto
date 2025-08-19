@@ -35,6 +35,15 @@ const Footer = () => {
       >
         💼 LinkedIn
       </a>
+      <a
+        href="https://github.com/febyanputra"
+        className="text-white text-decoration-none"
+        target="_blank"
+        rel="noreferrer"
+      >
+        🐱 GitHub
+    
+      </a>
     </div>
 
     <hr className="bg-secondary my-3" />
