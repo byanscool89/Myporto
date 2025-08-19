@@ -36,7 +36,7 @@ const Footer = () => {
         💼 LinkedIn
       </a>
       <a
-        href="https://github.com/febyanputra"
+        href="https://github.com/byanscool89"
         className="text-white text-decoration-none"
         target="_blank"
         rel="noreferrer"
