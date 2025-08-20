@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  background: #111; /* gelap biar neon menonjol */
+  background: #6e6c6c; /* gelap biar neon menonjol */
   color: #fff;
   border-radius: 8px;
   overflow: hidden;
@@ -17,7 +17,7 @@
   height: 100%;
   border-radius: 8px;
   padding: 2px; /* ketebalan border */
-  background: linear-gradient(90deg, #00ffff 25%, transparent 25%, transparent 50%, #00ffff 50%, #00ffff 75%, transparent 75%, transparent);
+  background: linear-gradient(90deg, #57f45f 25%, transparent 25%, transparent 50%, #00ffff 50%, #00ffff 75%, transparent 75%, transparent);
   background-size: 20px 20px;
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
@@ -25,7 +25,7 @@
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
   pointer-events: none;
-  animation: snake-border 2s linear infinite;
+  animation: snake-border 2.5s linear infinite;
 }
 
 /* Animasi bergerak */

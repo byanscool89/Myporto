@@ -59,17 +59,35 @@ const Projects = () => {
               <img src="projek4.png" alt="Tampilan 4" style={imgStyle} />
               <img src="projek5.png" alt="Tampilan 5" style={imgStyle} />
             </AutoScrollContainer>
-      <div className="card-body text-center"> <h5 className="card-title">Sistem Informasi Perpustakaan</h5>
-       <div className="d-flex justify-content-center gap-1 my-2"> <img src="logobootstrap5.png" alt="Bootstrap" 
-       style={{ height: '50px', objectFit: 'contain' }} /> <img src="laravel.png" alt="Laravel" style={{ height: '50px', objectFit: 'contain' }} />
-        </div> <div className="scrollable-text"> <p className="card-text text-justify"> <strong>Sistem Informasi Perpustakaan Berbasis Web</strong><br />
-         Sistem ini dirancang untuk mengelola data buku, anggota, peminjaman, dan pengembalian di perpustakaan. Dibangun menggunakan Laravel dan Bootstrap, sistem ini dilengkapi dengan fitur login, pencarian buku, perhitungan denda otomatis, 
-         serta laporan peminjaman. Tampilan yang responsif dan user-friendly membuatnya cocok digunakan untuk digitalisasi 
-         perpustakaan sekolah. <br /><br /> <strong>Peran Saya:</strong> Fullstack Developer
-          (Desain, Backend, Frontend, Database)<br /> <strong>Tools:</strong> Laravel, Bootstrap, MySQL, 
-          VS Code<br /> <strong>Fitur Utama:</strong> <ul className="text-start"> <li>Manajemen buku dan anggota</li>
-           <li>Pencarian dan filter buku</li> <li>Penghitungan denda otomatis</li>
-       <li>Laporan peminjaman dan pengembalian</li> </ul> </p> </div> </div> </div> </div>
+  <div className="card-body text-center">
+  <h5 className="card-title">Library Information System</h5>
+  <div className="d-flex justify-content-center gap-1 my-2">
+    <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} />
+    <img src="laravel.png" alt="Laravel" style={{ height: '50px', objectFit: 'contain' }} />
+  </div>
+
+  <div className="scrollable-text">
+    <p className="card-text text-justify">
+      This system is designed to manage books, members, borrowing, and returns in a library.
+      Built using Laravel and Bootstrap, it is equipped with features such as login, book search,
+      automatic fine calculation, and borrowing reports. The responsive and user-friendly interface
+      makes it suitable for school library digitalization.
+      <br /><br />
+
+      <strong>My Role:</strong> Fullstack Developer
+      (Design, Backend, Frontend, Database)<br />
+      <strong>Tools:</strong> Laravel, Bootstrap, MySQL, VS Code<br />
+      <strong>Main Features:</strong>
+      <ul className="text-start">
+        <li>Book and member management</li>
+        <li>Book search and filtering</li>
+        <li>Automatic fine calculation</li>
+        <li>Borrowing and returning reports</li>
+      </ul>
+    </p>
+  </div>
+</div>
+ </div> </div>
 
         {/* Card 2 */}
         <div className="col-md-4">
@@ -79,7 +97,7 @@ const Projects = () => {
               <img src="sm2.png" alt="Peta Darurat" style={imgStyle} />
               <img src="sm3.png" alt="Detail RS" style={imgStyle} />
             </AutoScrollContainer>
-           <div className="card-body text-center"> <h5 className="card-title">UI/UX Siaga Medis</h5> <div className="d-flex justify-content-center gap-3 my-2"> <img src="figma.png" alt="Figma" style={{ height: '35px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> Siaga Medis – Emergency Medical Assistance App is a mobile app designed to connect users with nearby medical facilities and emergency responders in real time. </p> <ul className="text-start"> <li>Real-time map of nearby hospitals, clinics, and pharmacies</li> <li>Emergency call button for instant ambulance request</li> <li>Filter by specialty, distance, and rating</li> <li>Location sharing with family & friends</li> </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma, Illustrator</p> </div> </div> </div> </div>
+           <div className="card-body text-center"> <h5 className="card-title">UI/UX Siaga Medis</h5> <div className="d-flex justify-content-center gap-3 my-2"> <img src="figma.png" alt="Figma" style={{ height: '35px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> Siaga Medis – Emergency Medical Assistance App is a mobile app designed to connect users with nearby medical facilities and emergency responders in real time. </p> <ul className="text-start"> <li>Real-time map of nearby hospitals, clinics, and pharmacies</li> <li>Emergency call button for instant ambulance request</li> <li>Filter by specialty, distance, and rating</li> <li>Location sharing with family & friends</li> </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma</p> </div> </div> </div> </div>
 
         {/* Card 3 */}
         <div className="col-md-4">
@@ -100,7 +118,7 @@ const Projects = () => {
               <img src="gp3.png" alt="Laporan" style={imgStyle} />
   
             </AutoScrollContainer>
-           <div className="card-body text-center"> <h5 className="card-title">GoPark</h5> <div className="d-flex justify-content-center gap-1"> <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} /> <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> GoPark – Smart Parking Finder App is a map-based app that helps users locate, filter, and reserve nearby parking spots in real time. </p> <ul className="text-start"> <li>Interactive map with real-time availability</li> <li>Filter by price, distance, and vehicle type</li> <li>Reservation & in-app payment</li> </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma, Illustrator</p> </div> </div> </div> </div>
+           <div className="card-body text-center"> <h5 className="card-title">GoPark</h5> <div className="d-flex justify-content-center gap-1"> <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} /> <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> GoPark – Smart Parking Finder App is a map-based app that helps users locate, filter, and reserve nearby parking spots in real time. </p> <ul className="text-start"> <li>Interactive map with real-time availability</li> <li>Filter by price, distance, and vehicle type</li> <li>Reservation & in-app payment</li> </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma</p> </div> </div> </div> </div>
 
       </div>
     </section>

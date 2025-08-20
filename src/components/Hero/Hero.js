@@ -3,11 +3,11 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div id="home" className="hero-section text-center py-5" data-aos="fade-up">
+    <div id="home" className="hero-section py-5" data-aos="fade-up">
       <div className="container">
-        <div className="row justify-content-center">
-          {/* Card Profile */}
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div className="row align-items-center">
+          {/* Card Profile - Kiri */}
+          <div className="col-12 col-md-4">
             <div className="profile-card">
               <div className="card-header-shape">
                 <div className="profile-picture">
@@ -37,6 +37,19 @@ const Hero = () => {
                   <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          {/* Summary - Kanan */}
+          <div className="col-12 col-md-8">
+            <div className="summary text-md-start text-center mt-4 mt-md-0">
+              <h2><strong>Profile</strong></h2>
+              <p>
+                 Fresh graduate in Information Systems with hands-on experience in UI/UX design, web
+ development, and public relations. Proficient in administration, logistics, and finance. Fast
+ learner, adaptable, and an excellent team player. Passionate about leveraging technology to
+ create efficient, user-centered solutions and eager to contribute to innovative projects.
+              </p>
             </div>
           </div>
         </div>
