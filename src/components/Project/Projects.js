@@ -86,6 +86,14 @@ const Projects = () => {
       </ul>
     </p>
   </div>
+   <a
+        href="https://perpussmpn3karanglewas.my.id"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="button-73"
+      >
+        View Project
+      </a>
 </div>
  </div> </div>
 
@@ -97,28 +105,99 @@ const Projects = () => {
               <img src="sm2.png" alt="Peta Darurat" style={imgStyle} />
               <img src="sm3.png" alt="Detail RS" style={imgStyle} />
             </AutoScrollContainer>
-           <div className="card-body text-center"> <h5 className="card-title">UI/UX Siaga Medis</h5> <div className="d-flex justify-content-center gap-3 my-2"> <img src="figma.png" alt="Figma" style={{ height: '35px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> Siaga Medis – Emergency Medical Assistance App is a mobile app designed to connect users with nearby medical facilities and emergency responders in real time. </p> <ul className="text-start"> <li>Real-time map of nearby hospitals, clinics, and pharmacies</li> <li>Emergency call button for instant ambulance request</li> <li>Filter by specialty, distance, and rating</li> <li>Location sharing with family & friends</li> </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma</p> </div> </div> </div> </div>
+           <div className="card-body text-center"> <h5 className="card-title">UI/UX Siaga Medis</h5> <div className="d-flex justify-content-center gap-3 my-2"> <img src="figma.png" alt="Figma" style={{ height: '35px', objectFit: 'contain' }} /> </div> 
+           <div className="scrollable-text"> 
+            <p className="card-text text-justify"> Siaga Medis – Emergency Medical Assistance App is a mobile app designed to connect users with nearby medical facilities and emergency responders in real time. </p> <ul className="text-start"> <li>Real-time map of nearby hospitals, clinics, and pharmacies</li> <li>Emergency call button for instant ambulance request</li> <li>Filter by specialty, distance, and rating</li> <li>Location sharing with family & friends</li>
+             </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma</p> </div> <a
+href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="button-73"
+      >
+        View Project
+      </a> </div> </div> </div>
+{/* Card 3 - Point Of Sale */}
+<div className="col-md-4">
+  <div className="card mb-2 shadow-sm card-equal">
+    <AutoScrollContainer>
+      <img src="7.png" alt="Laporan" style={imgStyle} />
+      <img src="8.png" alt="Kasir" style={imgStyle} />
+      <img src="9.png" alt="Laporan" style={imgStyle} />
+      <img src="10.png" alt="Kasir" style={imgStyle} />
+    </AutoScrollContainer>
+    <div className="card-body text-center">
+      <h5 className="card-title">Point Of Sale</h5>
+      <div className="d-flex justify-content-center gap-3 my-2">
+        <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} />
+        <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} />
+      </div>
+      <div className="scrollable-text">
+        <p className="card-text text-justify">
+          SmartPOS is a modern POS app that helps small businesses manage sales, inventory, and transactions with ease.
+        </p>
+        <ul className="text-start">
+          <li>Fast checkout process</li>
+          <li>Inventory management</li>
+          <li>Multi-device support</li>
+          <li>Sales reporting</li>
+        </ul>
+      </div>
 
-        {/* Card 3 */}
-        <div className="col-md-4">
-          <div className="card mb-2 shadow-sm card-equal">
-            <AutoScrollContainer>
-              <img src="7.png" alt="Laporan" style={imgStyle} />
-              <img src="8.png" alt="Kasir" style={imgStyle} />
-              <img src="9.png" alt="Laporan" style={imgStyle} />
-              <img src="10.png" alt="Kasir" style={imgStyle} />
-            </AutoScrollContainer>
-           <div className="card-body text-center"> <h5 className="card-title">Point Of Sale</h5> <div className="d-flex justify-content-center gap-3 my-2"> <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} /> <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> SmartPOS is a modern POS app that helps small businesses manage sales, inventory, and transactions with ease. </p> <ul className="text-start"> <li>Fast checkout process</li> <li>Inventory management</li> <li>Multi-device support</li> <li>Sales reporting</li> </ul> </div> </div> </div> </div>
+      {/* 🔹 Button di bawah */}
+      <a
+        href="https://dribbble.com/shots/26429803-Point-Of-Sale-Cashier"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="button-73"
+      >
+        View Project
+      </a>
+    
+    </div>
+  </div>
+</div>
 
-         <div className="col-md-4">
-          <div className="card mb-2 shadow-sm card-equal">
-            <AutoScrollContainer>
-              <img src="gp1.png" alt="Laporan" style={imgStyle} />
-              <img src="gp2.png" alt="Kasir" style={imgStyle} />
-              <img src="gp3.png" alt="Laporan" style={imgStyle} />
-  
-            </AutoScrollContainer>
-           <div className="card-body text-center"> <h5 className="card-title">GoPark</h5> <div className="d-flex justify-content-center gap-1"> <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} /> <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} /> </div> <div className="scrollable-text"> <p className="card-text text-justify"> GoPark – Smart Parking Finder App is a map-based app that helps users locate, filter, and reserve nearby parking spots in real time. </p> <ul className="text-start"> <li>Interactive map with real-time availability</li> <li>Filter by price, distance, and vehicle type</li> <li>Reservation & in-app payment</li> </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma</p> </div> </div> </div> </div>
+{/* Card 4 - GoPark */}
+<div className="col-md-4">
+  <div className="card mb-2 shadow-sm card-equal">
+    <AutoScrollContainer>
+      <img src="gp1.png" alt="Laporan" style={imgStyle} />
+      <img src="gp2.png" alt="Kasir" style={imgStyle} />
+      <img src="gp3.png" alt="Laporan" style={imgStyle} />
+    </AutoScrollContainer>
+    <div className="card-body text-center">
+      <h5 className="card-title">GoPark</h5>
+      <div className="d-flex justify-content-center gap-1">
+        <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} />
+        <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} />
+      </div>
+      <div className="scrollable-text">
+        <p className="card-text text-justify">
+          GoPark – Smart Parking Finder App is a map-based app that helps users locate, filter, and reserve nearby parking spots in real time.
+        </p>
+        <ul className="text-start">
+          <li>Interactive map with real-time availability</li>
+          <li>Filter by price, distance, and vehicle type</li>
+          <li>Reservation & in-app payment</li>
+        </ul>
+        <p>
+          <strong>My Role:</strong> UI/UX Designer<br />
+          <strong>Tools:</strong> Figma
+        </p>
+      </div>
+
+      {/* 🔹 Button di bawah */}
+     <a
+  href="https://dribbble.com/shots/26429795-GoPark"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="button-73"
+>
+  View Project
+</a>
+    </div>
+  </div>
+</div>
 
       </div>
     </section>
@@ -133,3 +212,4 @@ const imgStyle = {
 };
 
 export default Projects;
+
