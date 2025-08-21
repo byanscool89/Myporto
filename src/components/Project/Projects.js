@@ -128,8 +128,7 @@ href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert"
     <div className="card-body text-center">
       <h5 className="card-title">Point Of Sale</h5>
       <div className="d-flex justify-content-center gap-3 my-2">
-        <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} />
-        <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} />
+        <img src="figma.png" alt="Bootstrap" style={{ height: '35px', objectFit: 'contain' }} />
       </div>
       <div className="scrollable-text">
         <p className="card-text text-justify">
@@ -168,8 +167,7 @@ href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert"
     <div className="card-body text-center">
       <h5 className="card-title">GoPark</h5>
       <div className="d-flex justify-content-center gap-1">
-        <img src="logobootstrap5.png" alt="Bootstrap" style={{ height: '50px', objectFit: 'contain' }} />
-        <img src="php.png" alt="PHP" style={{ height: '50px', objectFit: 'contain' }} />
+        <img src="figma.png" alt="Figma" style={{ height: '35px', objectFit: 'contain' }} />
       </div>
       <div className="scrollable-text">
         <p className="card-text text-justify">
