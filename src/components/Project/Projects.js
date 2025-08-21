@@ -109,7 +109,7 @@ const Projects = () => {
            <div className="scrollable-text"> 
             <p className="card-text text-justify"> Siaga Medis – Emergency Medical Assistance App is a mobile app designed to connect users with nearby medical facilities and emergency responders in real time. </p> <ul className="text-start"> <li>Real-time map of nearby hospitals, clinics, and pharmacies</li> <li>Emergency call button for instant ambulance request</li> <li>Filter by specialty, distance, and rating</li> <li>Location sharing with family & friends</li>
              </ul> <p><strong>My Role:</strong> UI/UX Designer<br /><strong>Tools:</strong> Figma</p> </div> <a
-href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert"
+            href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert?utm_source=Clipboard_Shot&utm_campaign=febyanputra&utm_content=Siaga%20Medis%20%2F%20Medical%20Alert&utm_medium=Social_Share"
         target="_blank"
         rel="noopener noreferrer"
         className="button-73"
@@ -144,7 +144,7 @@ href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert"
 
       {/* 🔹 Button di bawah */}
       <a
-        href="https://dribbble.com/shots/26429803-Point-Of-Sale-Cashier"
+        href="https://dribbble.com/shots/26429803-Point-Of-Sale-Cashier?utm_source=Clipboard_Shot&utm_campaign=febyanputra&utm_content=Point%20Of%20Sale%20%2F%20Cashier&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=febyanputra&utm_content=Point%20Of%20Sale%20%2F%20Cashier&utm_medium=Social_Share"
         target="_blank"
         rel="noopener noreferrer"
         className="button-73"
@@ -186,7 +186,7 @@ href="https://dribbble.com/shots/26429778-Siaga-Medis-Medical-Alert"
 
       {/* 🔹 Button di bawah */}
      <a
-  href="https://dribbble.com/shots/26429795-GoPark"
+  href="https://dribbble.com/shots/26429795-GoPark?utm_source=Clipboard_Shot&utm_campaign=febyanputra&utm_content=GoPark&utm_medium=Social_Share"
   target="_blank"
   rel="noopener noreferrer"
   className="button-73"
